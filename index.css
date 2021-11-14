@@ -1,3 +1,38 @@
 body{
-    background: cornflowerblue;
+    background: #242424;
+    color: white;
+
+}
+
+nav{
+    background-color: black;
+    overflow: auto;
+}
+nav a{
+    float: left;
+    padding: 1em 2em;
+    text-align: center;
+    color: white;
+    
+}
+nav a:hover{
+    background-color: #0c163f;
+}
+
+.main{
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+.content{
+    background: #1a2551;
+    margin: 0% 10%;
+}
+h1{
+    text-align: left;
+    padding: 25px 25px;
+}
+
+.icon{
+    float: right;
 }
