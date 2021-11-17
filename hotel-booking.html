@@ -2,7 +2,8 @@
 <html>
     <head>
         <title>Hotel Booking</title>
-        <link rel="stylesheet" href="index.css" /> 
+        <link rel="stylesheet" href="index.css" />
+        <link rel="shortcut icon" href="resources/OIP.png" type="image/x-icon">  
         </head>
 
     <body>
@@ -18,7 +19,7 @@
                 <h1>Hotel Booking</h1>
                 <h3>Fill the form below if you would like to book a hotel room.</h3>
                 <hr />
-                <form action="action_page.php" method="Book">
+                <form action="action_page.php" method="GET">
                     <label for="name1">First name: </label>
                     <input type="text" id="name1" name="name1" placeholder="First Name" />
                     <br />
@@ -33,12 +34,12 @@
                     <br />
                     <label for="select">Number of people: </label>
                     <select id="select">
-                        <option>1</option>
-                        <option>2</option>
-                        <option>3</option>
-                        <option>4</option>
-                        <option>5</option>
-                        <option>6</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
                     </select>
                     <br />
                     <label>How many rooms: </label>

@@ -3,13 +3,15 @@
     <head>
         <title>Hotel Booking</title>
         <link rel="stylesheet" href="index.css" />
-        <?php
-        echo $_Book["name1"];
-        ?>
     </head>
 
     <body>
         <h1>DONE</h1>
+        <p>
+        <?php
+        echo $_GET["name1"];
+        ?>
+        </p>
     </body>
     
 </html>
